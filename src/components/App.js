@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Route, Switch } from "react-router-dom";
 import '../App.css';
-import Header from "./Header";
 import FlashCardPage from "./FlashCardPage";
 import FlashCardQuiz from "./FlashCardQuiz";
+import NavBar from "./NavBar";
 
 function App() {
   // const [quizMode, setQuizMode] = useState(false)
@@ -23,22 +23,15 @@ function App() {
 
   return (
     <div className="App">
+      <NavBar />
       <Switch>
         <Route path="/quiz">
-          <FlashCardQuiz flashCards={flashCards} />
+          <FlashCardQuiz flashCards={flashCards}/>
         </Route>
         <Route exact path="/">
           <FlashCardPage flashCards={flashCards} handleSetFlashCards={setFlashCards} />
         </Route>
       </Switch>
-      {/* <Switch>
-        {quizMode ?
-        <button onClick={handleClick}>View all</button> :
-        <button onClick={handleClick}>Start quizzing!</button> }
-        {quizMode ? null : <Header />}
-        {quizMode ? <FlashCardQuiz flashCards={flashCards}/> :
-        <FlashCardPage flashCards={flashCards} handleSetFlashCards={setFlashCards} /> }
-      </Switch> */}
     </div>
   );
 }

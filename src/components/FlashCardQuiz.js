@@ -25,13 +25,13 @@ function FlashCardQuiz({flashCards}) {
 
     return (
         <>
-            <h4 className="cardTopic">{currentCard.topic}</h4>
             {quizBank === 'done' ?
             <div>
                 <h1>Completed!</h1>
                 <button onClick={handleAgainClick}>Quiz again</button>
             </div> :
             <div>
+                <h4 className="cardTopic">{currentCard.topic}</h4>
                 <article className="flashcard" onClick={handleClick}>
                     {front ? <section className="front">{currentCard.question}</section> : <section className="back">{currentCard.answer}</section>}
                 </article>
