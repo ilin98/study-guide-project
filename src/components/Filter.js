@@ -2,7 +2,7 @@ import React from "react";
 
 function Filter ({topic, onTopicChange} ) {
   return (
-    <div className="Filter">
+    <div className="filter">
       <select
         name="filter"
         value={topic}

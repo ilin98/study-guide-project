@@ -14,7 +14,7 @@ function FlashCardList({topic, flashCards, onHandleDelete}) {
         answer={card.answer} topic={card.topic} onHandleDelete={onHandleDelete}/>)
 
     return (
-        <div>
+        <div className="cardList">
             {displayedCards}
         </div>
     )

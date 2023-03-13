@@ -37,14 +37,9 @@ function NewFlashCardForm({onAddCard}) {
     return (
         <div className="new-card-form">
             <form onSubmit={handleSubmit}>
-                <label>
-                    Question:
                     <textarea name="question" value={newCard.question} placeholder="Question" onChange={handleChange}/>
-                </label>
-                <label>
-                    Answer:
                     <textarea name="answer" value={newCard.answer} placeholder="Answer" onChange={handleChange}/>
-                </label>
+                    <br/>
                 <label>
                     Topic:
                     <select
