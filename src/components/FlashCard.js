@@ -14,10 +14,10 @@ function FlashCard({ question, answer, topic, id, onHandleDelete }) {
     return (
         <article id={id} className="flashcardList">
             <h3>{question}</h3>
-            <h4>{answer}</h4>
+            <p className='answer'>{answer}</p>
             <p>{topic}</p>
             <span>
-                <button onClick={handleDeleteClick}>x</button>
+                <button className='delete' onClick={handleDeleteClick}>x</button>
             </span>
         </article>
     )

@@ -36,7 +36,6 @@ function NewFlashCardForm({onAddCard}) {
 
     return (
         <div className="new-card-form">
-            <h2>New Card</h2>
             <form onSubmit={handleSubmit}>
                 <label>
                     Question:

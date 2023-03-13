@@ -52,4 +52,18 @@ article.flashcardList {
 
 .new-card-form {
   margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+h3 {
+  float: left;
+}
+
+p.answer {
+  margin-left: 40%;
+  margin-right: 10%
+}
+
+.delete {
+  margin-left: 95%;
 }
