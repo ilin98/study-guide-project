@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font: 'Oswald', sans-serif;
 }
 
 .cardTopic {
@@ -20,7 +21,7 @@ article.flashcard {
 
 section {
   display: block;
-  font: 30px 'Oswald', sans-serif;
+  font-size: 30px;
   text-align: center;
   line-height: 400px;
   width: 100%;
@@ -30,14 +31,25 @@ section {
 }
 
 .front {
-      color: #BA1F53;
-      background: #DDD;
-      height: 100%;
-    }
+  color: #BA1F53;
+  background: #DDD;
+  height: 100%;
+}
 
 .back {
-      color: #DDD;
-      background: #C85073;
-      max-height: 400px;
-      width: 600px;
-    }
+  color: #DDD;
+  background: #C85073;
+  max-height: 400px;
+  width: 600px;
+}
+
+article.flashcardList {
+  border-top: solid 1px;
+  margin-top: 20px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.new-card-form {
+  margin-bottom: 50px;
+}
