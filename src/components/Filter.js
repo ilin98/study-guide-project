@@ -9,7 +9,7 @@ function Filter ({topic, onTopicChange} ) {
         onChange={(e) => onTopicChange(e.target.value)}
       >
         <option value="All">Show All</option>
-        <option value="JavaScript">JavaScript</option>
+        <option value="Javascript">Javascript</option>
         <option value="React">React</option>
         <option value="Python">Python</option>
         <option value="Ruby">Ruby</option>
