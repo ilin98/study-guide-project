@@ -14,6 +14,7 @@ function FlashCardQuiz({flashCards}) {
         if (quizBank.length > 1) {
             setQuizBank(quizBank.filter(card => card.id !== Number(e.target.id)))
             setCurrentCard(quizBank[Math.floor(Math.random()*quizBank.length)])
+            setFront(true)
         } else {
             setQuizBank('done')
         }
@@ -21,6 +22,7 @@ function FlashCardQuiz({flashCards}) {
 
     function handleAgainClick(){
         setQuizBank(flashCards)
+        setFront(true)
     }
 
     return (
