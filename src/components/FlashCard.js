@@ -8,7 +8,7 @@ function FlashCard({ question, answer, topic, id, onHandleDelete }) {
         })
         .then(resp => resp.json())
         .then((card) => console.log(card))
-        onHandleDelete(e.target.parentNode.parentNode)
+        onHandleDelete(e.target.parentNode)
     }
 
     return (

@@ -27,7 +27,8 @@ section {
   width: 100%;
   transition: all 0.1s linear 0s;
   overflow: scroll;
-
+  max-height: 400px;
+  width: 600px;
 }
 
 .front {
@@ -39,8 +40,6 @@ section {
 .back {
   color: #DDD;
   background: #C85073;
-  max-height: 400px;
-  width: 600px;
 }
 
 
@@ -60,50 +59,37 @@ article.flashcardList {
   height: 150px;
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 100px;
 }
 
 p.topic {
   flex: 3;
-  font-size: 12px
+  font-size: 12px;
+  max-width: 8%
 }
 
 h3 {
   flex: 5;
   text-align: left;
+  max-width: 25%;
 }
 
 p.answer {
   flex: 10;
   text-align: left;
+  max-width: 40%;
 }
 
-.delete {
+button.delete {
   flex: 1;
   background-color: white;
   border: none;
-  color: rgb(179, 13, 13);
+  max-width: 5px;
 }
 
 .delete:hover {
   cursor: pointer;
 }
-
-/* h3 {
-  float: left;
-  padding-top: 30px;
-}
-
-p.answer {
-  margin-left: 40%;
-  margin-right: 10%;
-  margin-top: 10%
-}
-
-.delete {
-  float: inline-end;
-  margin-bottom: 10%
-} */
 
 textarea {
   width: 100%;
@@ -123,6 +109,12 @@ textarea {
   margin-bottom: 150px;
 }
 
-/* p.topic {
-  float: left;
-} */
+.nav {
+  display: "inline-block";
+  width: "50px";
+  padding: "12px";
+  margin: "0 6px 6px";
+  background: "blue";
+  text-decoration: "none";
+  color: "white"
+}
