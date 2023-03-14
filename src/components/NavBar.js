@@ -4,10 +4,10 @@ import { NavLink } from "react-router-dom";
 function NavBar() {
   return (
   <div className="nav">
-    <NavLink className="nav" exact to="/">
+    <NavLink id="nav1" style={{ textDecoration: 'none' }} exact to="/">
       Home
     </NavLink>
-    <NavLink className="nav" to="/quiz">
+    <NavLink id="nav2" style={{ textDecoration: 'none' }} to="/quiz">
       Quiz
     </NavLink>
   </div>
