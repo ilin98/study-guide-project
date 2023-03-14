@@ -46,26 +46,31 @@ article.flashcard {
 }
 
 section {
-  display: block;
+  display: flex;
   font-size: 30px;
   text-align: center;
-  line-height: 400px;
+  align-items: center;
+  justify-content: center;
+  line-height: 50px;
   width: 100%;
   transition: all 0.1s linear 0s;
-  overflow: scroll;
   max-height: 400px;
   width: 600px;
+
 }
 
 .front {
   color: #BA1F53;
   background: #DDD;
-  height: 100%;
+  max-height: 400px;
+  min-height: 400px;
 }
 
 .back {
   color: #DDD;
   background: #C85073;
+  max-height: 400px;
+  min-height: 400px;
 }
 
 
