@@ -7,26 +7,20 @@
       "id": 2
     },
     {
-      "answer": "1. Point 1\n2. Point 2\n3. Point 3",
-      "question": "Test question",
-      "topic": "React",
-      "id": 4
-    },
-    {
-      "answer": "This is and Example Answer",
-      "question": "This is an example Question",
+      "answer": "This is an example answer on Ruby",
+      "question": "This is an example question on Ruby",
       "topic": "Ruby",
-      "id": 7
+      "id": 8
     },
     {
-      "answer": "Test",
-      "question": "Test",
-      "topic": "Javascript",
+      "answer": "This is an example answer on React",
+      "question": "This is an example question on React",
+      "topic": "React",
       "id": 9
     },
     {
-      "answer": "oierjfaoierfjaoie jaoeif jasoif jas;oifajeoifj aoiersfj a;osif ja;oeirf jao;eirj faosdirfj voadsij ;aosij aoiejfoaiewjf ;oaiej foiaj oierjfaoierfjaoie jaoeif jasoif jas;oifajeoifj aoiersfj a;osif ja;oeirf jao;eirj faosdirfj voadsij ;aosij aoiejfoaiewjf ;oaiej foiaj\n",
-      "question": "Test Question blalefjaiojwoifjaoifjewoif ioj oiafjoiejf oij oij oi jo ij oi joi jo ij",
+      "answer": "Test\n",
+      "question": "Test",
       "topic": "Javascript",
       "id": 10
     }

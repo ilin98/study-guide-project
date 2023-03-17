@@ -13,7 +13,7 @@ function FlashCardPage({flashCards, handleSetFlashCards}) {
 
 
     function handleAddCard(newCard) {
-        handleSetFlashCards([...flashCards, newCard])
+        handleSetFlashCards([newCard, ...flashCards])
     }
 
     function handleDelete(deleteCard) {

@@ -12,8 +12,8 @@ function FlashCardQuiz({flashCards}) {
 
     function handleNextClick(e){
         if (quizBank.length > 1) {
-            setQuizBank(quizBank.filter(card => card.id !== Number(e.target.id)))
             setCurrentCard(quizBank[Math.floor(Math.random()*quizBank.length)])
+            setQuizBank(quizBank.filter(card => card.id !== Number(e.target.id)))
             setFront(true)
         } else {
             setQuizBank('done')
