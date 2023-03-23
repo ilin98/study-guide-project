@@ -6,7 +6,6 @@ import FlashCardQuiz from "./FlashCardQuiz";
 import NavBar from "./NavBar";
 
 function App() {
-  // const [quizMode, setQuizMode] = useState(false)
   const [flashCards, setFlashCards] = useState([])
 
   useEffect(() => {
@@ -16,10 +15,6 @@ function App() {
         setFlashCards(cards)
     })
 }, [setFlashCards])
-
-  // function handleClick(){
-  //   setQuizMode(!quizMode)
-  // }
 
   return (
     <div className="App">
